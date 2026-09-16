@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Creativo - Tu marca merece ser memorable</title>
+
+  <!-- Fuentes tipográficas Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos externa -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <!-- Logo -->
+      <a href="#" class="logo-link">
+        <img src="assets/img/Logo-nova.png" alt="Logo Estudio" class="logo__img" width="140" height="32">
+      </a>
+
+      <!-- Navegación y botón alineados a la derecha -->
+      <div class="header__right">
+        <nav class="nav" id="nav-menu" aria-label="Navegación principal">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+            <li class="nav__item"><a href="#proceso" class="nav__link">Proceso</a></li>
+            <li class="nav__item"><a href="#portafolio" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn btn--header">Contacto</a>
+
+        <!-- Menú móvil -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="subtitle">ESTUDIO DE DISEÑO</span>
+        <h1>Tu marca merece<br>ser memorable.</h1>
+        <p>Creamos identidades visuales únicas y experiencias digitales pensadas para negocios que buscan diferenciarse con elegancia y rigor técnico.</p>
+        <a href="#contacto" class="btn-primary">Reservar reunión</a>
+      </div>
+      <div class="hero-image-box">
+        <img src="assets/img/hero-visual.png" alt="Mockup de proyecto de branding" class="hero-img" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">LO QUE HACEMOS</span>
+        <h2>Nuestros Servicios</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Diseño Web</h3>
+          <p>Sitios web a medida que combinan estética cuidada, velocidad de carga y optimización para la conversión.</p>
+        </div>
+        <div class="service-card">
+          <h3>Branding</h3>
+          <p>Construcción de marcas con personalidad propia: desde el logotipo hasta el sistema visual completo.</p>
+        </div>
+        <div class="service-card">
+          <h3>Posicionamiento Web</h3>
+          <p>Estrategias SEO orientadas a posicionar tu negocio frente a los clientes que realmente importan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metodología / Proceso -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">METODOLOGÍA</span>
+        <h2>Un proceso estructurado</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h4>1. Descubrimiento</h4>
+          <p>Analizamos tu negocio, objetivos y público objetivo.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h4>2. Estrategia y Diseño</h4>
+          <p>Creamos propuestas conceptuales sólidas.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h4>3. Desarrollo</h4>
+          <p>Construimos la solución con código limpio y optimizado.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h4>4. Lanzamiento</h4>
+          <p>Revisión final, despliegue y entrega del proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Manifiesto -->
+  <section class="manifesto">
+    <div class="container manifesto-grid">
+      <h2>Creemos en la honestidad visual y técnica. No vendemos fórmulas mágicas, sino sistemas rentables con el mismo rigor que un taller artesanal.</h2>
+      <p>Nos enfocamos en la calidad frente a la cantidad. Trabajamos con un número limitado de proyectos al año para garantizar una atención minuciosa y dedicada a cada detalle.</p>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="projects" id="portafolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">PORTFOLIO</span>
+        <h2>Proyectos seleccionados</h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Proyecto 01 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="assets/img/project-image.png" alt="Case study de diseño web para Refugio Rainbow" loading="lazy">
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Diseño Web / UX</span>
+            <h3 class="project-card__title">Refugio Rainbow</h3>
+          </div>
+        </article>
+
+        <!-- Proyecto 02 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="assets/img/project-image2.png" alt="Identidad de marca y branding para Tercera Juventud" loading="lazy">
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">Branding / UI</span>
+            <h3 class="project-card__title">Tercera Juventud</h3>
+          </div>
+        </article>
+
+        <!-- Proyecto 03 -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="assets/img/project-image3.png" alt="Diseño de interfaz y app móvil para BIO Barf" loading="lazy">
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__tag">UI/UX App</span>
+            <h3 class="project-card__title">Happy Meal / BIO Barf</h3>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / Preguntas Frecuentes -->
+  <section class="faq" id="faq">
+    <div class="container faq-grid">
+      <div>
+        <span class="subtitle">DUDAS FRECUENTES</span>
+        <h2>Resolvemos tus dudas</h2>
+      </div>
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">¿Cómo empezamos a trabajar juntos?</button>
+          <div class="faq-answer">
+            <p>Agendamos una breve llamada inicial para conocer tus necesidades y definir si somos el equipo adecuado para tu proyecto.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Cuánto tiempo lleva un proyecto?</button>
+          <div class="faq-answer">
+            <p>El tiempo medio suele estar entre 4 y 8 semanas, dependiendo del alcance y complejidad del diseño o desarrollo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿Entregais marcas completas?</button>
+          <div class="faq-answer">
+            <p>Sí, entregamos todos los activos visuales junto con un manual de marca detallado para su correcta aplicación.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">¿El servicio incluye diseño de sitios web?</button>
+          <div class="faq-answer">
+            <p>Por supuesto, diseñamos y desarrollamos sitios totalmente adaptables a dispositivos móviles y optimizados para buscadores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-section" id="contacto">
+    <div class="container">
+      <span class="subtitle">CONTACTO</span>
+      <h2>¿Listo para dar el siguiente paso?</h2>
+      <p>Cuéntanos tu proyecto y hablemos de cómo podemos ayudarte a hacerlo realidad.</p>
+      <a href="mailto:hola@estudio.com" class="btn-outline">Reservar una reunión</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <!-- Marca y descripción -->
+        <div class="footer__brand">
+          <a href="#" class="footer__logo-link" aria-label="Ir al inicio de Agencia NÕVA">
+            <img src="assets/img/logo-horizontal.png" alt="Agencia NÕVA" class="footer__logo-img" width="160" height="36">
+          </a>
+          <p class="footer__desc">
+            Estudio creativo especializado en diseño web y branding honesto para profesionales y pymes.
+          </p>
+        </div>
+
+        <!-- Información de contacto y ubicación -->
+        <div class="footer__info">
+          <div class="footer__col">
+            <span class="footer__label">UBICACIÓN</span>
+            <p class="footer__text">Madrid / Barcelona</p>
+          </div>
+          <div class="footer__col">
+            <span class="footer__label">CONTACTO</span>
+            <a href="mailto:hola@agencianova.com" class="footer__link">hola@agencianova.com</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer__divider">
+
+      <!-- Copyright y enlaces legales -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          © 2026 Agencia NÕVA. Todos los derechos reservados.
+        </p>
+        <div class="footer__legal">
+          <a href="#">Aviso Legal</a>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Política de Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
