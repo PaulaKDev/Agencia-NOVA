@@ -6,7 +6,7 @@ Una landing page moderna y minimalista diseñada para un estudio creativo especi
 
 ## 🚀 Demo En Vivo
 
-- **Sitio web:** [https://tu-usuario.vercel.app](https://tu-usuario.vercel.app)
+- **Sitio web:** [VERCEL](https://agencia-nova-pi.vercel.app)
 - **Repositorio:** [Agencia NOVA](https://github.com/PaulaKDev/Agencia-NOVA)
 
 ---
