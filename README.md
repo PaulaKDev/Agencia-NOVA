@@ -43,7 +43,8 @@ Una landing page moderna y minimalista diseñada para un estudio creativo especi
 ```text
 landing-agencia-nova/
 ├── index.html
-├── script.js            # Lógica JS (Acordeón FAQ y menú móvil)
+├── js
+    └── script.js        # Lógica JS (Acordeón FAQ y menú móvil)
 ├── assets/
 │   └── img/             # Logotipos e imágenes (.png, .jpg, .svg)
 ├── css/
